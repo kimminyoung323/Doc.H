@@ -109,6 +109,7 @@
 document.querySelectorAll(".comparison-slider").forEach((element) => {
     const slider = document.createElement("div");
     const resizeElement = element.getElementsByTagName("figure")[1];
+    console.log(resizeElement);
     if (!resizeElement) return;
     const figcaption = {
         first: element.getElementsByTagName("figcaption")[0],
